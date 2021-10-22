@@ -1,8 +1,10 @@
 import './App.scss';
 import MainPage from './MainPage/MainPage';
+import Navbar from './Navbar/Navbar';
 function App() {
   return (
-    <div className='text-center'>
+    <div>
+      <Navbar />
       <MainPage />
     </div>
   );
