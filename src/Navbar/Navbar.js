@@ -1,12 +1,13 @@
 import React from 'react';
 import './Navbar.scss';
 
-function Navbar() {
+function Navbar({ active, setActive }) {
   return (
     <nav className='navbar navbar-expand-md sticky-top  navbar-dark bg-dark'>
       <div className='container-fluid'>
-        <a className='navbar-brand' href='#'>
-          <i className='bi bi-heart d-inline-block align-text-top'></i>BrandName
+        <a className='navbar-brand' href='#' onClick={() => setActive(1)}>
+          <i className='bi bi-heart d-inline-block align-text-top'></i>
+          {active}
         </a>
         <button
           className='navbar-toggler'
@@ -21,14 +22,14 @@ function Navbar() {
         </button>
         <div className='collapse navbar-collapse' id='navbarNav'>
           <div className='navbar-nav'>
-            <a className='nav-link active' aria-current='page' href='#'>
-              Home
+            <a className='nav-link active' aria-current='page' href='#niceList'>
+              About
             </a>
             <a className='nav-link' href='#'>
-              Features
+              Django
             </a>
             <a className='nav-link' href='#'>
-              Pricing
+              FreeCodeCamp
             </a>
             <a className='nav-link disabled'>Disabled</a>
           </div>

@@ -1,0 +1,27 @@
+.container {
+  background-color: transparent; //rgb(240, 240, 240);
+}
+.card {
+  width: 12rem;
+  box-shadow: 1px 1px 1px gray;
+  filter: saturate(0%);
+  transition: 0.1s;
+  transition-timing-function: ease-in;
+}
+.card:hover {
+  transform: scale(1.02);
+  filter: saturate(100%);
+  transition: 0.1s;
+  transition-timing-function: ease-out;
+}
+/* .card-img-top {
+  filter: saturate(0%);
+  transition: 0.1s;
+  transition-timing-function: ease-in;
+}
+.card-img-top:hover {
+  filter: saturate(100%);
+  transition: 0.1s;
+  transition-timing-function: ease-out;
+}
+ */
