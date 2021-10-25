@@ -1,8 +1,11 @@
 .container {
   background-color: transparent; //rgb(240, 240, 240);
+  margin-bottom: 10px;
+  //scroll-snap-type: y mandatory;
 }
 .card {
-  width: 12rem;
+  width: 14rem;
+
   box-shadow: 1px 1px 1px gray;
   filter: saturate(0%);
   transition: 0.1s;
@@ -14,14 +17,16 @@
   transition: 0.1s;
   transition-timing-function: ease-out;
 }
-/* .card-img-top {
-  filter: saturate(0%);
-  transition: 0.1s;
-  transition-timing-function: ease-in;
+
+.card-img-top {
+  height: 16rem;
 }
-.card-img-top:hover {
-  filter: saturate(100%);
-  transition: 0.1s;
-  transition-timing-function: ease-out;
+
+#first {
+  min-height: 80vh;
+  font-size: x-large;
 }
- */
+
+/* #reactProjects {
+  scroll-snap-align: start;
+} */
