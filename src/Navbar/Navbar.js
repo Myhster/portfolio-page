@@ -22,16 +22,15 @@ function Navbar({ active, setActive }) {
         </button>
         <div className='collapse navbar-collapse' id='navbarNav'>
           <div className='navbar-nav'>
-            <a className='nav-link active' aria-current='page' href='#first'>
+            <a className='nav-link' aria-current='page' href='#first'>
               About
             </a>
-            <a className='nav-link' href='#'>
-              Django
+            <a className='nav-link' href='#reactProjects'>
+              React Projects
             </a>
-            <a className='nav-link' href='#'>
-              FreeCodeCamp
+            <a className='nav-link' href='#javascriptAndPython'>
+              JavaScript and Python
             </a>
-            <a className='nav-link disabled'>Disabled</a>
           </div>
         </div>
       </div>

@@ -11,8 +11,11 @@ import { SiReplit } from 'react-icons/si';
 
 function MainPage() {
   return (
-    <div className=''>
+    <div className='total'>
       <div className='container' id='first'>
+        <p>
+          <br />
+        </p>
         <h1>Hi, nice to have you here</h1>
 
         <p>
@@ -31,10 +34,10 @@ function MainPage() {
       </div>
       <div className='container'>
         <h2 id='reactProjects'>React-Projects</h2>
-        <div className='row gy-3'>
+        <div className='row gy-1'>
           {/* 25-5-Clock-------------------------------------------------*/}
           <div className='col-sm'>
-            <div className='card text-dark bg-light h-100'>
+            <div className='card text-dark bg-light'>
               <img
                 src={clock}
                 className='card-img-top'
@@ -67,7 +70,7 @@ function MainPage() {
           </div>
           {/* Calc-------------------------------------------------*/}
           <div className='col-sm'>
-            <div className='card text-dark bg-light h-100'>
+            <div className='card text-dark bg-light'>
               <img
                 src={calc}
                 className='card-img-top'
@@ -99,7 +102,7 @@ function MainPage() {
           </div>
           {/* Markdown-------------------------------------------------*/}
           <div className='col-sm'>
-            <div className='card text-dark bg-light  h-100'>
+            <div className='card text-dark bg-light '>
               <img
                 src={mark}
                 className='card-img-top'
@@ -129,9 +132,12 @@ function MainPage() {
               </div>
             </div>
           </div>
+        </div>
+        <div className='row gy-2'>
           {/* QuoteMachine-------------------------------------------------*/}
+
           <div className='col-sm'>
-            <div className='card text-dark bg-light h-100'>
+            <div className='card text-dark bg-light'>
               <img
                 src={quoteMa}
                 className='card-img-top'
@@ -164,7 +170,7 @@ function MainPage() {
 
           {/* Drum Machine-------------------------------------------------*/}
           <div className='col-sm'>
-            <div className='card text-dark bg-light h-100'>
+            <div className='card text-dark bg-light'>
               <img
                 src={drum}
                 className='card-img-top'
@@ -195,21 +201,23 @@ function MainPage() {
               </div>
             </div>
           </div>
+          {/* Drum Machine-------------------------------------------------*/}
           <div className='col-sm'></div>
         </div>
       </div>
-      <div className='container'>
+      <div className='container' id='javascriptAndPython'>
+        <h2>JavaScript and Python</h2>
         <div className='row gy-2'>
           <div className='col-sm'>
-            <div className='card' id='niceList'>
+            <div className='card  h-100'>
               <div className='card-header'>
-                List of completed JavaScript projects
+                <h4>List of completed JS projects</h4>
               </div>
               <ul className='list-group list-group-flush'>
                 <li className='list-group-item'>Palindrome Checker</li>
                 <li className='list-group-item'>Roman Numeral Converter</li>
                 <li className='list-group-item'>Caesars Cipher</li>
-                <li className='list-group-item'>Telephone Number Validator</li>
+                <li className='list-group-item'>Telephone Num. Validator</li>
                 <li className='list-group-item'>Cash Register</li>
               </ul>
               <div className='card-footer'>
@@ -223,14 +231,10 @@ function MainPage() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className='container'>
-        <div className='row gy-2'>
           <div className='col-sm'>
-            <div className='card' id='niceList'>
+            <div className='card h-100'>
               <div className='card-header'>
-                List of completed Python projects
+                <h4>List of completed Python projects</h4>
               </div>
               <ul className='list-group list-group-flush'>
                 <li className='list-group-item'>
@@ -290,6 +294,7 @@ function MainPage() {
               </div>
             </div>
           </div>
+          <div className='col-sm'></div>
         </div>
       </div>
     </div>

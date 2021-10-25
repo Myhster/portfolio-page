@@ -1,11 +1,11 @@
 .container {
   background-color: transparent; //rgb(240, 240, 240);
-  margin-bottom: 10px;
-  //scroll-snap-type: y mandatory;
+  margin-bottom: 20px;
 }
 .card {
   width: 14rem;
-
+  height: 500px;
+  margin-bottom: 35px;
   box-shadow: 1px 1px 1px gray;
   filter: saturate(0%);
   transition: 0.1s;
@@ -26,7 +26,3 @@
   min-height: 80vh;
   font-size: x-large;
 }
-
-/* #reactProjects {
-  scroll-snap-align: start;
-} */
