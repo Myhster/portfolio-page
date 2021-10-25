@@ -7,6 +7,7 @@ import clock from './clock.png';
 import drum from './drum.png';
 
 import { FaFreeCodeCamp, FaGithub } from 'react-icons/fa';
+import { SiReplit } from 'react-icons/si';
 
 function MainPage() {
   return (
@@ -196,15 +197,97 @@ function MainPage() {
           </div>
           <div className='col-sm'></div>
         </div>
-        <div className='container'></div>
+      </div>
+      <div className='container'>
         <div className='row gy-2'>
           <div className='col-sm'>
             <div className='card' id='niceList'>
-              <div className='card-header'>Nice list</div>
+              <div className='card-header'>
+                List of completed JavaScript projects
+              </div>
               <ul className='list-group list-group-flush'>
-                <li className='list-group-item'>First item</li>
-                <li className='list-group-item'>Second item</li>
+                <li className='list-group-item'>Palindrome Checker</li>
+                <li className='list-group-item'>Roman Numeral Converter</li>
+                <li className='list-group-item'>Caesars Cipher</li>
+                <li className='list-group-item'>Telephone Number Validator</li>
+                <li className='list-group-item'>Cash Register</li>
               </ul>
+              <div className='card-footer'>
+                <a
+                  href='https://www.freecodecamp.org/certification/fcce974e741-4197-46de-bef9-eae65ace4031/javascript-algorithms-and-data-structures'
+                  className='card-link'
+                  target='_blank'
+                >
+                  <FaFreeCodeCamp size='2em' />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='container'>
+        <div className='row gy-2'>
+          <div className='col-sm'>
+            <div className='card' id='niceList'>
+              <div className='card-header'>
+                List of completed Python projects
+              </div>
+              <ul className='list-group list-group-flush'>
+                <li className='list-group-item'>
+                  Arithmetic Formatter{' '}
+                  <a
+                    href='https://replit.com/@Bobolove/boilerplate-arithmetic-formatter'
+                    target='_blank'
+                  >
+                    <SiReplit />
+                  </a>
+                </li>
+                <li className='list-group-item'>
+                  Time Calculator{' '}
+                  <a
+                    href='https://replit.com/@Bobolove/boilerplate-time-calculator'
+                    target='_blank'
+                  >
+                    <SiReplit />
+                  </a>
+                </li>
+                <li className='list-group-item'>
+                  Budget App{' '}
+                  <a
+                    href='https://replit.com/@Bobolove/boilerplate-budget-app'
+                    target='_blank'
+                  >
+                    <SiReplit />
+                  </a>
+                </li>
+                <li className='list-group-item'>
+                  Polygon Area Calculator{' '}
+                  <a
+                    href='https://replit.com/@Bobolove/boilerplate-polygon-area-calculator-2'
+                    target='_blank'
+                  >
+                    <SiReplit />
+                  </a>
+                </li>
+                <li className='list-group-item'>
+                  Probability Calculator{' '}
+                  <a
+                    href='https://replit.com/@Bobolove/boilerplate-probability-calculator'
+                    target='_blank'
+                  >
+                    <SiReplit />
+                  </a>
+                </li>
+              </ul>
+              <div className='card-footer'>
+                <a
+                  href='https://www.freecodecamp.org/certification/fcce974e741-4197-46de-bef9-eae65ace4031/scientific-computing-with-python-v7'
+                  className='card-link'
+                  target='_blank'
+                >
+                  <FaFreeCodeCamp size='2em' />
+                </a>
+              </div>
             </div>
           </div>
         </div>
