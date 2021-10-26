@@ -3,9 +3,13 @@ import './Navbar.scss';
 
 function Navbar({ active, setActive }) {
   return (
-    <nav className='navbar navbar-expand-md sticky-top  navbar-dark bg-dark'>
+    <nav className='navbar navbar-expand-md sticky-top   navbar-dark bg-dark'>
       <div className='container-fluid'>
-        <a className='navbar-brand' href='#' onClick={() => setActive(1)}>
+        <a
+          className='navbar-brand'
+          href='#'
+          onClick={() => setActive(active + 1)}
+        >
           <i className='bi bi-heart d-inline-block align-text-top'></i>
           {active}
         </a>
@@ -27,6 +31,9 @@ function Navbar({ active, setActive }) {
             </a>
             <a className='nav-link' href='#reactProjects'>
               React Projects
+            </a>
+            <a className='nav-link' href='#djangoProjects'>
+              Django Projects
             </a>
             <a className='nav-link' href='#javascriptAndPython'>
               JavaScript and Python
