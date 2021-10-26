@@ -22,7 +22,7 @@ function MainPage() {
             <h1>Hi, nice to have you here</h1>
 
             <p>
-              I'm a berlin-based self-taught programmer with a passion for
+              I'm a Berlin-based self-taught programmer with a passion for
               learning.
               <br />
               <br />
@@ -301,7 +301,7 @@ function MainPage() {
         <h2>JavaScript and Python</h2>
         <div className='row row-cols-3 gy-2'>
           <div className='col-sm'>
-            <div className='card  h-100'>
+            <div className='card listCard'>
               <div className='card-header'>
                 <h4>List of completed JS projects</h4>
               </div>
@@ -325,7 +325,7 @@ function MainPage() {
             </div>
           </div>
           <div className='col-sm'>
-            <div className='card h-100'>
+            <div className='card listCard'>
               <div className='card-header'>
                 <h4>List of completed Python projects</h4>
               </div>
