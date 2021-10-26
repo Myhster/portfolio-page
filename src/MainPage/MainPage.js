@@ -27,7 +27,7 @@ function MainPage() {
           to incorporate it into my workflow.
           <br />
           <br />
-          This page is dedicated to the projects i have finished over the last
+          This page is dedicated to the projects I have finished over the last
           several months, following the curriculum of FreeCodeCamp and other
           resources.
         </p>
@@ -38,11 +38,17 @@ function MainPage() {
           {/* 25-5-Clock-------------------------------------------------*/}
           <div className='col-sm'>
             <div className='card text-dark bg-light'>
-              <img
-                src={clock}
-                className='card-img-top'
-                alt='a nice image of my project'
-              />
+              <a
+                href='https://myhster.github.io/25-5-Clock'
+                className='card-link'
+                target='_blank'
+              >
+                <img
+                  src={clock}
+                  className='card-img-top'
+                  alt='a nice image of my project'
+                />
+              </a>
               <div className='card-body'>
                 <h5 className='card-title'>25-5-Clock</h5>
                 <p className='card-text'>
@@ -59,7 +65,7 @@ function MainPage() {
                   <FaFreeCodeCamp size='2em' />
                 </a>
                 <a
-                  href='https://myhster.github.io/25-5-Clock'
+                  href='https://github.com/Myhster/25-5-Clock'
                   className='card-link'
                   target='_blank'
                 >
@@ -71,11 +77,17 @@ function MainPage() {
           {/* Calc-------------------------------------------------*/}
           <div className='col-sm'>
             <div className='card text-dark bg-light'>
-              <img
-                src={calc}
-                className='card-img-top'
-                alt='image of the calculator app'
-              />
+              <a
+                href='https://myhster.github.io/calculator'
+                className='card-link'
+                target='_blank'
+              >
+                <img
+                  src={calc}
+                  className='card-img-top'
+                  alt='image of the calculator app'
+                />
+              </a>
               <div className='card-body'>
                 <h5 className='card-title'>Calculator</h5>
                 <p className='card-text'>
@@ -91,7 +103,7 @@ function MainPage() {
                   <FaFreeCodeCamp size='2em' />
                 </a>
                 <a
-                  href='https://myhster.github.io/calculator'
+                  href='https://github.com/Myhster/calculator'
                   className='card-link'
                   target='_blank'
                 >
@@ -103,11 +115,17 @@ function MainPage() {
           {/* Markdown-------------------------------------------------*/}
           <div className='col-sm'>
             <div className='card text-dark bg-light '>
-              <img
-                src={mark}
-                className='card-img-top'
-                alt='a nice image of my project'
-              />
+              <a
+                href='https://myhster.github.io/markdown-previewer'
+                className='card-link'
+                target='_blank'
+              >
+                <img
+                  src={mark}
+                  className='card-img-top'
+                  alt='a nice image of my project'
+                />
+              </a>
               <div className='card-body'>
                 <h5 className='card-title'>Markdown Previewer</h5>
                 <p className='card-text'>
@@ -123,7 +141,7 @@ function MainPage() {
                   <FaFreeCodeCamp size='2em' />
                 </a>
                 <a
-                  href='https://myhster.github.io/markdown-previewer'
+                  href='https://github.com/Myhster/markdown-previewer'
                   className='card-link'
                   target='_blank'
                 >
@@ -138,11 +156,17 @@ function MainPage() {
 
           <div className='col-sm'>
             <div className='card text-dark bg-light'>
-              <img
-                src={quoteMa}
-                className='card-img-top'
-                alt='image of random quote machine'
-              />
+              <a
+                href='https://myhster.github.io/random-quote-machine'
+                className='card-link'
+                target='_blank'
+              >
+                <img
+                  src={quoteMa}
+                  className='card-img-top'
+                  alt='image of random quote machine'
+                />
+              </a>
               <div className='card-body'>
                 <h5 className='card-title'>Random Quote Machine</h5>
                 <p className='card-text'>
@@ -158,7 +182,7 @@ function MainPage() {
                   <FaFreeCodeCamp size='2em' />
                 </a>
                 <a
-                  href='https://myhster.github.io/random-quote-machine'
+                  href='https://github.com/Myhster/random-quote-machine'
                   className='card-link'
                   target='_blank'
                 >
@@ -171,11 +195,17 @@ function MainPage() {
           {/* Drum Machine-------------------------------------------------*/}
           <div className='col-sm'>
             <div className='card text-dark bg-light'>
-              <img
-                src={drum}
-                className='card-img-top'
-                alt='a nice image of my project'
-              />
+              <a
+                href='https://myhster.github.io/drum-machine'
+                className='card-link'
+                target='_blank'
+              >
+                <img
+                  src={drum}
+                  className='card-img-top'
+                  alt='a nice image of my project'
+                />
+              </a>
               <div className='card-body'>
                 <h5 className='card-title'>Drum Machine</h5>
                 <p className='card-text'>
@@ -192,7 +222,7 @@ function MainPage() {
                   <FaFreeCodeCamp size='2em' />
                 </a>
                 <a
-                  href='https://myhster.github.io/drum-machine'
+                  href='https://github.com/Myhster/drum-machine'
                   className='card-link'
                   target='_blank'
                 >
